@@ -1,0 +1,9 @@
+conversation:
+  greeting: Hi! How can I assist you?
+  voice: Zoe (Premium)
+ollama:
+  model: llama3.2:1b
+  url: http://localhost:11434/api/generate
+whisperRecognition:
+  lang: en
+  modelPath: whisper/base.en.pt
