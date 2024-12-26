@@ -1,4 +1,4 @@
-<video src="https://github.com/user-attachments/assets/00ce87bb-e35d-4a89-932e-68d15df8a0e5" controls></video>
+<video src="https://github.com/user-attachments/assets/3efe981e-ff59-469d-b071-228609499822" controls></video>
 # Project Overview
 <small>
 This project is a locally hosted AI agent with a GUI that uses speech-to-text and text-to-speech. It takes advantage of Ollama and LLMs (llama3.2:1b) to run entirely offline.
@@ -15,7 +15,7 @@ This project is a locally hosted AI agent with a GUI that uses speech-to-text an
        ```
    - Download an OpenAI Whisper Model (by default, the `config.yaml` is set to use `base.en.pt`) by referring to this [Whisper model discussion](https://github.com/openai/whisper/discussions/63#discussioncomment-3798552).
    - Clone this repository somewhere on your system.
-   - Place the Whisper model in the `/whisper` directory in the repo root folder.
+   - Place the Whisper model in a `/whisper` directory in the repo root folder.
    - Create a virtual environment in the root directory (`stt-tts-agent/`) to isolate dependencies:
      ```bash
      python3 -m venv venv
@@ -38,7 +38,7 @@ This project is a locally hosted AI agent with a GUI that uses speech-to-text an
      ```
 ---
 # Execution Flow
-
+![stt-tts-agent-flow-chart](https://github.com/user-attachments/assets/c00f008a-5781-46c3-9f43-5c91b9d6214c)
 1. `main.py` - The Main Controller
    - Orchestrates the application’s flow by handling:
      - **Greeting Message**: It starts by using the `tts.py` script to speak the greeting message defined in `config.yaml`.
